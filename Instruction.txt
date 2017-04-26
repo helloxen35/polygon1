@@ -1,0 +1,6 @@
+Could execute the program on Jenkins
+command on jenkins was
+cd sample2
+cd src
+javac Main.java
+java Main

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Rectangle.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Ant Example</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Rectangle.java</span></div><h1>Rectangle.java</h1><pre class="source lang-java linenums">import java.util.ArrayList;
+import java.awt.Point;
+
+
+public class Rectangle implements Polygon {
+	
+	private Point p1;
+	private Point p2;
+	private Point p3;
+	private Point p4;
+	
+	public Rectangle(Point p1, Point p2, Point p3, Point p4)
+<span class="fc" id="L13">	{</span>
+<span class="fc" id="L14">		this.p1 = p1;</span>
+<span class="fc" id="L15">		this.p2 = p2;</span>
+<span class="fc" id="L16">		this.p3 = p3;</span>
+<span class="fc" id="L17">		this.p4 = p4;</span>
+<span class="fc" id="L18">	}</span>
+	
+	public ArrayList&lt;Point&gt; getPoints()
+	{
+<span class="fc" id="L22">		ArrayList&lt;Point&gt; coordinates = new ArrayList&lt;Point&gt;();</span>
+<span class="fc" id="L23">		coordinates.add(p1);</span>
+<span class="fc" id="L24">		coordinates.add(p2);</span>
+<span class="fc" id="L25">		coordinates.add(p3);</span>
+<span class="fc" id="L26">		coordinates.add(p4);</span>
+<span class="fc" id="L27">		return coordinates;</span>
+		
+	}
+	
+	public double getArea()
+
+	{
+<span class="fc" id="L34">		double rectArea = 0.0;</span>
+<span class="fc" id="L35">		double w1 = Math.sqrt(Math.pow(p2.getX() - p1.getX(),2) + Math.pow(p2.getY() - p1.getY(),2));</span>
+<span class="fc" id="L36">		double w2 = Math.sqrt(Math.pow(p4.getX() - p3.getX(),2) + Math.pow(p4.getY() - p3.getY(),2));</span>
+<span class="fc" id="L37">		double h1 = Math.sqrt(Math.pow(p3.getX() - p2.getX(),2) + Math.pow(p3.getY() - p2.getY(),2));</span>
+<span class="fc" id="L38">		double h2 = Math.sqrt(Math.pow(p1.getX() - p4.getX(),2) + Math.pow(p1.getY() - p4.getY(),2));</span>
+		
+<span class="pc bpc" id="L40" title="3 of 4 branches missed.">		if ( w1 != w2 &amp;&amp; h1 != h2)</span>
+		{
+<span class="nc" id="L42">			System.out.println(&quot;A Rectangle cannot be formed, sorry!!!&quot;);</span>
+		}
+		else
+		{
+<span class="fc" id="L46">			rectArea = (w1 * h1);</span>
+		}
+<span class="fc" id="L48">		return rectArea;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

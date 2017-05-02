@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Vijeth" name="TriangleTest" skipped="0" tests="2" time="0.06" timestamp="2017-04-26T16:34:20">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="VIJETH" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8\jre\classes" />
+    <property name="ant.file.type.HW2" value="file" />
+    <property name="env.COMPUTERNAME" value="VIJETH" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.4" />
+    <property name="java.runtime.version" value="1.8.0_91-b14" />
+    <property name="env.HOMEPATH" value="\Users\VijethAralaguppi" />
+    <property name="env.=H:" value="H:\Selenium\workspace\helloworld2\src" />
+    <property name="user.name" value="VijethAralaguppi" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="report.findbugs.dir" value="F:\Jenkins work\Pramod\polygon1\sample2\report\findbugs" />
+    <property name="ant.project.name" value="HW2" />
+    <property name="java.version" value="1.8.0_91" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="env.TEMP" value="C:\Users\VIJETH~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+    <property name="ECLIPSE_HOME" value="C:\eclipse" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8\jre" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\opscode\chefdk\modules\" />
+    <property name="env.APPDATA" value="C:\Users\VijethAralaguppi\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="exec.file" value="F:\Jenkins work\Pramod\polygon1\sample2\jacoco.exec" />
+    <property name="ant.file" value="F:\Jenkins work\Pramod\polygon1\sample2\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.=ExitCode" value="00000000" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.configsetroot" value="C:\WINDOWS\ConfigSetRoot" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.91-b14" />
+    <property name="report.dir" value="F:\Jenkins work\Pramod\polygon1\sample2\report" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\VijethAralaguppi" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.4\lib" />
+    <property name="env.=F:" value="F:\Jenkins work\Pramod\polygon1\sample2" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\VIJETH~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="target" value="1.6" />
+    <property name="user.home" value="C:\Users\VijethAralaguppi" />
+    <property name="env.JENKINS_HOME" value="F:\Jenkins work\jenkins" />
+    <property name="env.VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="F:\Jenkins work\Pramod\polygon1\sample2\src" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\MinGW\bin;C:\MinGW\libexec\gcc\x86_64-pc-mingw32\4.6.4;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\apache-ant-1.9.4\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Java\jdk1.8\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8\bin;F:\DevOps\apache-maven-3.3.9\bin;C:\opscode\chefdk\bin\;C:\Program Files (x86)\Skype\Phone\;C:\Users\VijethAralaguppi\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="F:\Jenkins work\Pramod\polygon1\sample2\bin;C:\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\apache-ant-1.9.4\lib\junit-4.12.jar;C:\apache-ant-1.9.4\lib\ant-launcher.jar;C:\apache-ant-1.9.4\lib\ant.jar;C:\apache-ant-1.9.4\lib\ant-junit.jar;C:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TriangleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\Jenkins work\Pramod\polygon1\sample2\junit\TEST-TriangleTest.xml crashfile=F:\Jenkins work\Pramod\polygon1\sample2\junitvmwatcher2105312159159974776.properties propsfile=F:\Jenkins work\Pramod\polygon1\sample2\junit40874963117039181.properties" />
+    <property name="FINDBUGS_HOME" value="F:\CS680\HWS\Bugs\findbugs-3.0.1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\VIJETH" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="env.CLASS_PATH" value="C:\Program Files\Java\jdk1.8\bin;" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ant.file.HW2" value="F:\Jenkins work\Pramod\polygon1\sample2\build.xml" />
+    <property name="env.OneDrive" value="C:\Users\VijethAralaguppi\OneDrive" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.9.4" />
+    <property name="java.io.tmpdir" value="C:\Users\VIJETH~1\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="3c03" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.ECLIPSE_HOME" value="C:\eclipse" />
+    <property name="env.FINDBUGS_HOME" value="F:\CS680\HWS\Bugs\findbugs-3.0.1" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.JACOCO_HOME" value="C:\apache-ant-1.9.4\jacoco" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" -f build.xml" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="F:\Jenkins work\Pramod\polygon1\sample2" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\VijethAralaguppi\AppData\Local" />
+    <property name="env.MAVEN_HOME" value="F:\DevOps\apache-maven-3.3.9" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\MinGW\bin;C:\MinGW\libexec\gcc\x86_64-pc-mingw32\4.6.4;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\apache-ant-1.9.4\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Java\jdk1.8\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8\bin;F:\DevOps\apache-maven-3.3.9\bin;C:\opscode\chefdk\bin\;C:\Program Files (x86)\Skype\Phone\;C:\Users\VijethAralaguppi\AppData\Local\Microsoft\WindowsApps;" />
+    <property name="env.EQ_LIBRARY_PATH" value="C:\MinGW\x86_64-w64-mingw32\lib" />
+    <property name="basedir" value="F:\Jenkins work\Pramod\polygon1\sample2" />
+    <property name="env.easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="JACOCO_HOME" value="C:\apache-ant-1.9.4\jacoco" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="env.USERNAME" value="VijethAralaguppi" />
+    <property name="source" value="1.6" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="env.USERDOMAIN" value="VIJETH" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Windows\System32" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+  </properties>
+  <testcase classname="TriangleTest" name="getAreaTest" time="0.007" />
+  <testcase classname="TriangleTest" name="getPointstest" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

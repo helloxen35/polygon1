@@ -4,3 +4,11 @@ cd sample2
 cd src
 javac Main.java
 java Main
+
+ant -f build.xml is a command to execute build.xml in command prompt
+(cd sample2
+cd src
+javac Main.java
+java Main
+cd ..
+ant -f build.xml)
